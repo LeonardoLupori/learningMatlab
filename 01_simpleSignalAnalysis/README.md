@@ -55,7 +55,8 @@ It is important that initially you try to solve the exercises with as much indep
 
   - `doc medfilt1`
   - `doc smooth`
-  - `doc smoothdata` 
+  - `doc smoothdata`
+  - `doc detrend`
   
 </details>
 

@@ -13,3 +13,4 @@ Series of small projects to help beginners build up coding skills and independen
 ## Index of the projects
 
 1. [Simple signal analysis](01_simpleSignalAnalysis/README.md)
+1. [Basics of working with images](02_imagesBasics/README.md)
