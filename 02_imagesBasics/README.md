@@ -125,7 +125,7 @@ It is important that initially you try to solve the exercises with as much indep
   - `doc imbinarize`
   - `doc rgb2hsv`
   - One strategy could be to try to find some **threshold values** that you can use to threshold the image.
-  - **H**, **S** and **V** channels for the image
+  - **H**, **S** and **V** channels for the image  
   ![image](https://user-images.githubusercontent.com/39329654/166914016-ad15e4d3-76f7-436e-9688-74684c36fe43.png)
   - `doc createmask`
   - `doc table`
