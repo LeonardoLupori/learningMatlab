@@ -31,10 +31,13 @@ Solve the exercises by creating one or more scripts and/or functions in **this f
 1. Load the image `cells.png` in matlab and show it
 2. The image is an RGB 8-bit image. Plot all the channels separately as gray scale images.
 ![image](https://user-images.githubusercontent.com/39329654/166896608-4bd3d3d7-5916-41f9-92b1-676dc8cca1f9.png)
+
 3. Select the blue channel (3rd) and look at the histogram of the image. How many pixels are saturated (completely white or completely dark)?
 ![image](https://user-images.githubusercontent.com/39329654/166898181-8e157590-8508-41b8-91e9-8d7a626ab8fa.png)
+
 4. 🌶 Draw with your mouse two different region of interest (ROIs) on the RGB image and for each of those 2 region calculate the mean, median and mode pixel intensity of pixels inside that region. Save this data as a MATLAB table. Try to select two region with very different brightness so it's easier to check whether the results make sense.
 ![image](https://user-images.githubusercontent.com/39329654/166902391-384159d6-49de-4668-910b-9e773d0d5dc3.png)
+
 5. 🌶 Repeat exercise #4 with five different ROIs. Consider how many lines you have to change to solve this question.  
 Then, try to write a version of the code for exercise #4 using as much abstraction as possible so that you have to modify only a single line to go from the solution of exercise #4 to that of #5.
 
@@ -51,7 +54,6 @@ convert it to a grayscale image with
 `img = rgb2gray(img)`
 
 6. Segment the mouse in the image using the fact that the mouse is much darker than the background.
-
 ![image](https://user-images.githubusercontent.com/39329654/166918233-c1c32aa0-0b48-4224-8b45-8c2007774072.png)
 
 ### Work with different color spaces
@@ -71,7 +73,6 @@ consider the image:
 ![image](https://user-images.githubusercontent.com/39329654/166910389-d9a1f412-4f3e-4b20-96b3-2f3b468d171c.png)
 
 7. 🌶🌶 Try to create a binary images where each pixel is 1 only on top of the **blue chips** and 0 otherwise.
-
 ![image](https://user-images.githubusercontent.com/39329654/166919745-cb665b03-4fb4-4b92-97f8-09d05ce348ae.png)
 
 ---
